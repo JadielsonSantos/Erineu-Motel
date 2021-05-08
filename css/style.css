@@ -1,0 +1,190 @@
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.font-titulo,
+.card-title {
+    font-family: 'Merriweather',
+        serif !important;
+}
+
+.font-paragrafo,
+.font-botao,
+.card-text,
+.font {
+    font-family: 'Raleway',
+        sans-serif !important;
+}
+
+a {
+    font-family: 'Raleway',
+        sans-serif !important;
+    font-weight: 700;
+
+}
+
+.card-body a {
+    background-color: #584528;
+    color: #fff;
+    border-color: #1f2138;
+}
+
+.card-body a:hover {
+    background-color: #fff;
+    color: #1f2138;
+    border-color: #1f2138;
+}
+
+.rede i:hover {
+    font-size: 16px;
+}
+
+a:hover {
+    border-bottom: 1px solid #1f2138;
+}
+
+.rede {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: flex-end;
+}
+
+i {
+    font-weight: 600;
+}
+
+.rede p {
+    margin: 5px;
+    font-family: 'Merriweather',
+        sans-serif !important;
+}
+
+.rede * {
+    font-size: 12px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler i:hover {
+    background-color: #584528;
+    color: white;
+}
+
+.logo {
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+.img {
+    height: 100vh;
+    width: 100%;
+}
+
+.agenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dcdbc6;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.botao p {
+    font-family: 'Raleway',
+        sans-serif !important;
+    font-size: 1.4em;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: #1f2138;
+    color: white;
+    padding: 6px 43px;
+    border-radius: 4px;
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border: 1px solid #1f2138;
+    border-radius: 8px;
+}
+
+.grupo div {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 5px;
+}
+
+.bo {
+    width: 70%;
+    color: #fff;
+    background-color: #584528;
+    border: 1px solid #1f2138;
+    border-radius: 5px;
+    font-family: 'Raleway',
+        sans-serif !important;
+    font-weight: 600;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.bo:hover {
+    background-color: #fff;
+    color: #1f2138;
+    border-bottom: 1px solid #1f2138;
+}
+
+.quartos {
+    margin-top: 22px;
+}
+
+.quartos h1 {
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+
+.quartos p {
+    text-align-last: auto;
+    text-rendering: optimizeSpeed;
+}
+.col {
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 80vh;
+    width: 100%;
+}
+@media (max-width: 760px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 80vh;
+        width: 100%;
+    }
+}
+.img {
+    background-color: #00000000;
+    height: 100%;
+    width: 100%;
+}
+.corpo {
+    background-color: #dcdbc6;
+}
+.gallery-img {
+    padding: 2px;
+}
+.gallery-img:hover {
+    transform: translate3d(10px, 10px, 0px);
+    transition: .3s;
+}

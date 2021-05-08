@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NAVBAR CSS BOOTSTRAP5 -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/baguettebox.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- CONFIGURACOES CSS  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>Ibiza - Hotel </title>
+</head>
+
+<body>
+    <!-- HEADER DO SITE  -->
+    <div class="rede">
+        <p><i class="fas fa-wifi"></i> WI-FI Free</p>
+        <p><i class="fas fa-phone-alt"></i> (82) 99999-8888</p>
+        <p><i class="fab fa-whatsapp"></i> (82) 99999-8888</p>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand font-titulo logo" href="#">Ibiza</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reserva">Reserva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Carrossel do site  -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/parte1.jpg" class="img" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/parte2.jpg" class="img" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section>
+        <div id="reserva" class="agenda">
+            <div class="botao">
+                <p><i class="fas fa-long-arrow-alt-down" style="margin-right: 10px;"></i>O melhor preço garantido ao reservar aqui<i style="margin-left: 10px;" class="fas fa-long-arrow-alt-down"></i></p>
+            </div>
+            <div class="datas">
+                <form class="headline">
+                    <div class="grupo">
+                        <div>
+                            <label style="margin-right: 10px;" for="exampleInputEmail1"
+                                class="form-label font">Chegada</label>
+                            <input type="date" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div>
+                            <label style="margin-right: 26px;" for="exampleInputPassword1"
+                                class="form-label font">Partida</label>
+                            <input type="date" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <div>
+                            <label style="margin-right: 20px;" for="exampleInputPassword1"
+                                class="form-label font">Adultos</label>
+                            <input type="number" class="form-control" id="exampleInputPassword1" value="0">
+                        </div>
+                        <div>
+                            <label style="margin-right: 14px;" for="exampleInputPassword1"
+                                class="form-label font">Criancas</label>
+                            <input type="number" class="form-control" id="exampleInputPassword1" value="0">
+                        </div>
+                        <div class="div">
+                            <button class="btn font bo">RESERVAR</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="quartos">
+                <h1 class="font-titulo">Quartos de dormir</h1>
+                <p class="font-paragrafo">Todos os nossos quartos têm WI-FI e Buffet de pequeno-almoço grátis. Os
+                    quartos superiores têm vista panorâmica da
+                    cidade. Também temos garagens subterrâneas (sujeito a disponibilidade).</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 l4 headline">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/home_d4s-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Visita</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4 headline">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/home_dms-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Visita</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4 headline">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/home_ss-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Visita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="corpo headline">
+        <section>
+            <div class="container">
+                <div class="quartos">
+                    <h1 id="reserva" class="font-titulo">O hotel</h1>
+                    <p class="font-paragrafo">Visite nosso hotel histórico por meio de imagens</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="container headline">
+                <div class="gallery">
+                    <div><a href="img/home_ss-1.jpg">
+                            <img class="img gallery-img" src="./img/home_ss-1.jpg" alt="First image">
+                        </a></div>
+                    <div><a href="img/home_d4s-1.jpg">
+                            <img class="img gallery-img" src="./img/home_d4s-1.jpg" alt="First image">
+                        </a></div>
+                    <div><a href="img/home_dms-1.jpg">
+                            <img class="img gallery-img" src="./img/home_dms-1.jpg" alt="First image">
+                        </a></div>
+                    <div><a href="img/home_tms-1.jpg">
+                            <img class="img gallery-img" src="./img/home_tms-1.jpg" alt="First image">
+                        </a></div>
+                    <div><a href="img/home_ss-1.jpg">
+                            <img class="img gallery-img" src="./img/home_ss-1.jpg" alt="First image">
+                        </a></div>
+                    <div><a href="img/0_tms-1.jpg">
+                            <img class="img gallery-img" src="./img/0_tms-1.jpg" alt="First image">
+                        </a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- SCRIPT DO BOOTSTRAP5 -->
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/baguettebox.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        baguetteBox.run('.gallery');
+        ScrollReveal({reset: true}).reveal('.headline');
+
+    </script>
+</body>
+
+</html>
